@@ -1,0 +1,20 @@
+apiVersion: v2
+name: dynamic-duo
+description: A Helm 3 umbrella chart that setups a dynamic duo that includes the hashicorp vault and consul services
+type: application
+version: 0.1.0
+maintainers:
+- name: Gary Louis Stewart
+  email: gary.stewart@outlook.com
+
+sources:
+- https://github.com/GaryLouisStewart/stable/vault-consul
+
+dependencies:
+- name: consul
+  version: 0.24.1
+  repository: https://helm.releases.hashicorp.com
+
+- name: vault
+  version: 0.6.0
+  repository: https://helm.releases.hashicorp.com

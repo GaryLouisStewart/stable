@@ -1,0 +1,3 @@
+# helm specific configuration
+**/Charts/*/charts
+requirements.lock
