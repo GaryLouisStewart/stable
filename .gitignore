@@ -1,3 +1,4 @@
 # helm specific configuration
 **/Charts/*/charts
 requirements.lock
+.DS_Store
